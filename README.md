@@ -13,7 +13,7 @@ A python implementaion to HTTP-server (with a browser as a client). The client s
 
 
 ## Dependencies:
-* Python
+* MacOS / Linux with python
 * Web browser
 
 ## Installation:
