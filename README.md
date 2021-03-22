@@ -7,7 +7,7 @@
 ## Introduction
 A python implementaion to HTTP-server (with a browser as a client). The client sends (as HTTP-1.1 request) to the server the name of the file he wants to download from the _files_ folder. If the file is in a sub-folder, it's name has to include a path. The server does not provide a parallel connections and therefor there is a maximum time (set to 1 sec) that the server waits for a request.
 
-* When the client sends ```\``` as file name, the server will return the ```index.html``` file.
+* When the client sends ```/``` as file name, the server will return the ```index.html``` file.
 * When the client sends ```redirect.http```, the server will return the status _301 Moved Permanently_ and the path ```/result.html```.
 * When the client sends a path that does not exist, the server will return the status _404 Not Found_ and close the connection. 
 
