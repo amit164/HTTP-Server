@@ -3,7 +3,7 @@
 2. [Dependencies](#dependencies)
 3. [Installation](#installation)
 
-dgf
+
 ## Introduction
 A python implementaion to HTTP-server (with a browser as a client). The client sends (as HTTP-1.1 request) to the server the name of the file he wants to download from the _files_ folder. If the file is in a sub-folder, it's name has to include a path. The server does not provide a parallel connections and therefor there is a maximum time (set to 1 sec) that the server waits for a request.
 
